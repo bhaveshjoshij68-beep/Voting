@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+@media print {
+  body { background: white !important; color: #0f172a !important; }
+  body > header, body > footer { display: none !important; }
+  main { max-width: none !important; padding: 0 !important; }
+  article { box-shadow: none !important; border: 0 !important; }
+  @page { size: A4; margin: 16mm; }
+}
